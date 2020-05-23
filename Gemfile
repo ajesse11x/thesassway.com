@@ -23,7 +23,7 @@ gem 'rack-codehighlighter', :git => "git://github.com/wbzyl/rack-codehighlighter
 
 
 # Puma
-gem 'puma'
+gem 'puma', '>= 3.12.6'
 
 group :development do
   gem 'shotgun'
