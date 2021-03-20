@@ -10,7 +10,7 @@ gem 'rack-rewrite'
 gem 'rack-google_analytics'
 
 # Middleman
-gem 'middleman', '~> 3.4.0'
+gem 'middleman', '~> 4.3.8'
 gem 'middleman-livereload', '~> 3.4.0'
 gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw] # Faster file watcher updates on Windows
 
