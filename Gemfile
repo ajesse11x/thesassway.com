@@ -18,7 +18,7 @@ gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw] # Faster file watcher upda
 gem 'compass'
 
 # Code highlighting
-gem 'pygments.rb'
+gem 'pygments.rb', '>= 1.0.0'
 gem 'rack-codehighlighter', :git => "git://github.com/wbzyl/rack-codehighlighter.git"
 
 
