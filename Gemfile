@@ -5,13 +5,13 @@ ruby '2.2.3'
 gem 'rake'
 
 # Rack
-gem 'rack-contrib'
+gem 'rack-contrib', '>= 2.0.0'
 gem 'rack-rewrite'
 gem 'rack-google_analytics'
 
 # Middleman
-gem 'middleman', '~> 3.4.0'
-gem 'middleman-livereload', '~> 3.4.0'
+gem 'middleman', '~> 4.1.11'
+gem 'middleman-livereload', '~> 3.4.3'
 gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw] # Faster file watcher updates on Windows
 
 # Sass and Compass
