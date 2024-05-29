@@ -5,7 +5,7 @@ ruby '2.2.3'
 gem 'rake'
 
 # Rack
-gem 'rack-contrib'
+gem 'rack-contrib', '>= 2.5.0'
 gem 'rack-rewrite'
 gem 'rack-google_analytics'
 
