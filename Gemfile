@@ -10,8 +10,8 @@ gem 'rack-rewrite'
 gem 'rack-google_analytics'
 
 # Middleman
-gem 'middleman', '~> 3.4.0'
-gem 'middleman-livereload', '~> 3.4.0'
+gem 'middleman', '~> 3.4.1'
+gem 'middleman-livereload', '~> 3.4.4'
 gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw] # Faster file watcher updates on Windows
 
 # Sass and Compass
@@ -27,5 +27,5 @@ gem 'puma'
 
 group :development do
   gem 'shotgun'
-  gem 'foreman'
+  gem 'foreman', '>= 0.86.0'
 end
